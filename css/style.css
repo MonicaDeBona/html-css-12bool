@@ -4,3 +4,51 @@
     margin: 0;
     box-sizing: border-box  ;
 }
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 1rem .2rem;
+    border: 2px solid white;
+    background-color: rgb(158, 209, 77);
+    color: white;
+}
+
+.ex-1 .col-6 .pink {
+    background-color: pink;
+    border: none;
+}
+
+main {
+    height: 100vh;
+}
+
+.ex-2 {
+    margin: 3rem 0;
+}
+
+.ex-2 h2 {
+    text-align: center;
+}
+
+.ex-3-offset h2 {
+    text-align: end;
+}
+
+
