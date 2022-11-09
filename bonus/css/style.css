@@ -1,0 +1,51 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    font-size: 1rem;
+}
+
+main {
+    background-color: black ;
+}
+
+.col-1 {
+    border-radius: 50%;
+    height: 23px;
+}
+
+.author {
+    padding: .3rem 0 0 .4rem;
+}
+
+.author-lastname {
+    text-align: center;
+}
+
+.pink {
+    background-color: pink
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.dark-pink {
+    background-color: rgb(218, 53, 81);;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.magenta {
+    background-color: rgb(71, 2, 37);
+}

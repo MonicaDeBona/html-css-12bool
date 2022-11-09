@@ -1,0 +1,26 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+
+.col-1 {
+    flex-basis: calc((100% / 48) * 1);
+    max-width: calc((100% / 48) * 1);
+}
+
+.col-4 {
+    flex-basis: calc((100% / 48) * 4);
+    max-width: calc((100% / 48) * 4);
+}
